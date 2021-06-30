@@ -1,6 +1,7 @@
 # Exercism Ballerina Track
 
-![build status](https://travis-ci.org/exercism/ballerina.svg?branch=master)
+[![Configlet Status](https://github.com/exercism/ballerina/workflows/Configlet%20CI/badge.svg)]
+[![Exercise Test Status](https://github.com/exercism/ballerina/workflows/Ballerina%20%2F%20main/badge.svg)]
 
 Exercism exercises in Ballerina. [Ballerina](https://ballerina.io/) is a compiled, transactional, statically and strongly typed programming language with textual and graphical syntaxes. Ballerina incorporates fundamental concepts of distributed system integration into the language and offers a type-safe, concurrent environment to implement microservices with distributed transactions, reliable messaging, stream processing, and workflows. 
 
@@ -94,7 +95,7 @@ Quick Reference:
 - Add the full reference implementation to ```<exercise-name>/.meta/reference ```. 
 - Add the exercise skeleton(incomplete solution) to `` <exercise-name>/``. 
 - Add all test cases under ```<exercise-name>test/ ```.
-- Run all tests using : ``.../ballerina-exercism/exercises$ sh run_ballerina_tests.sh`` and make sure all tests are passed. 
+- Run all tests using : ``.https://github.com/exercism/v3/blob/main/ballerina-exercism/exercises$ sh run_ballerina_tests.sh`` and make sure all tests are passed. 
 - Add exercise to ``` ballerina-exercism/config.json ```. 
 - Generate an UUID using `configlet uuid` use that as the ID for the exercise.
 - Update ``config.json`` with the metadata for the new exercise. 

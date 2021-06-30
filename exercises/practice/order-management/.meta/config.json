@@ -1,0 +1,14 @@
+{
+  "authors": [],
+  "files": {
+    "solution": [
+      "order_mgt.bal"
+    ],
+    "test": [
+      "tests/order_mgt_test.bal"
+    ],
+    "example": [
+      ".meta/reference/order_mgt.bal"
+    ]
+  }
+}
